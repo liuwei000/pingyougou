@@ -24,6 +24,10 @@
     font-size: 14px;
 }
 
+.style-red {
+    color: #c81623;
+}
+
 .spacer {
     width: 1px;
     height: 11px;
@@ -40,3 +44,257 @@
 .shortcut li {
     float: left;
 }
+
+/* header start */
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.header .logo a {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -28px;
+    width: 175px;
+    height: 56px;
+    font-size: 0;
+    background: url(../img/logo.png);
+}
+
+.header .search {
+    position: absolute;
+    left: 347px;
+    top: 25px;
+}
+
+.header .search input {
+    float: left;
+    width: 442px;
+    height: 32px;
+    color: #ccc;
+    padding-left: 10px;
+    outline-style: none;
+    border: 2px solid #b1191a;
+}
+
+.header .search button {
+    float: left;
+    width: 81px;
+    height: 36px;
+    border: 0;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.header .hotwrods {
+    position: absolute;
+    left: 347px;
+    top: 61px;
+}
+
+.header .hotwrods a {
+    display: inline-block;
+    margin: 8px 10px;
+}
+
+.header .shopcar {
+    position: absolute;
+    right: 63px;
+    top: 25px;
+    width: 139px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.header .shopcar .car {
+    margin-left: 18px;
+    margin-right: 6px;
+    color: #d94f4f;
+}
+
+.header .shopcar .count {
+    position: absolute;
+    left: 100px;
+    top: -8px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 5px;
+    color: #fff;
+    background-color: #e60012;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.header .shopcar .arrow {
+    position: absolute;
+    right: 14px;
+    top: 1px;
+    font-size: 15px;
+}
+
+/* header end */
+
+/* nav start */
+.nav {
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown .dt {
+    width: 209px;
+    height: 47px;
+    text-align: center;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.nav .dropdown .dd {
+    display: none;
+    height: 465px;
+    margin-top: 2px;
+}
+
+.nav .dropdown .dd li {
+    height: 31px;
+    line-height: 31px;
+    padding: 0 12px;
+    background-color: #c81623;
+}
+
+.nav .dropdown .dd li:hover {
+    background-color: #f7f7f7;
+}
+
+.nav .dropdown .dd li:hover a {
+    color: #c81623;
+}
+
+.nav .dropdown .dd li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav .dropdown .dd li i {
+    float: right;
+    font-family: 'icomoon';
+}
+
+.nav .navitems {
+    height: 47px;
+}
+
+.nav .navitems li {
+    float: left;
+    margin: 0 25px;
+}
+/* nav end */
+
+/* footer start */
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+.footer .mod_service {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .mod_service li {
+    float: left;
+    width: 205px;
+    margin: 30px 0 0 35px;
+}
+
+.footer .mod_service i {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.footer .mod_service .ico1 {
+    background-position: -253px -3px;
+}
+
+.footer .mod_service .ico2 {
+    background-position: -254px -54px;
+}
+
+.footer .mod_service .ico3 {
+    background-position: -256px -105px;
+}
+
+.footer .mod_service .ico4 {
+    background-position: -257px -156px;
+}
+
+.footer .mod_service .ico5 {
+    background-position: -258px -208px;
+}
+
+.footer .mod_service li h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.footer .mod_service li p {
+    font-size: 12px;
+}
+
+.footer .mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .mod_help dl {
+    float: left;
+    width: 150px;
+    margin: 20px 0 0 50px;
+}
+
+.footer .mod_help dt {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.footer .mod_help .app img {
+    display: inline-block;
+    margin: 0 0 3px -12px;
+}
+
+.footer .mod_copyright {
+    width: 975px;
+    margin: 20px auto;
+}
+
+.footer .mod_copyright li {
+    float: left;
+    height: 15px;
+    line-height: 15px;
+}
+
+.footer .mod_copyright .spacer {
+    width: 1px;
+    height: 14px;
+    margin: 0 14px;
+    background-color: #666666;
+}
+
+.footer .mod_copyright {
+    text-align: center;
+}
+
+.footer .mod_copyright span {
+    display: inline-block;
+    margin: 13px 0 6px;
+}
+/* footer end */

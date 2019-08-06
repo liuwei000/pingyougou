@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0
 }
+/* 字体图标 icomoon */
+.icomoon {
+    font-family: 'iconmoon';
+}
 /*让所有斜体 不倾斜*/
 em,
 i {
