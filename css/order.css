@@ -1,0 +1,285 @@
+/* header start */
+
+.header {
+    height: 58px;
+    line-height: 58px;
+    margin-top: 15px;
+}
+
+.header img {
+    float: left;
+}
+
+.header h3 {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.header .serch {
+    float: right;
+}
+
+.header .serch input {
+    width: 342px;
+    height: 32px;
+    border: 2px solid #b1191a;
+}
+
+.header .serch button {
+    width: 75px;
+    height: 36px;
+    color: #fff;
+    border-style: none;
+    background-color: #b1191a;
+}
+
+/* header end */
+
+/* title start */
+
+.title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 19px;
+    margin: 10px auto;
+}
+
+.title h5 {
+    font-weight: 400;
+}
+
+/* title end */
+
+/* box start */
+
+.box {
+    width: 1140px;
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+}
+
+.box .space {
+    width: 1130px;
+    height: 1px;
+    margin: 25px 0 25px 3px;
+    background-color: #ededed;
+}
+
+.box .box1 .top {
+    height: 25px;
+}
+
+.box .box1 .top span {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.box .box1 .top a {
+    float: right;
+    color: #1474af;
+}
+
+.box .box1 .content {
+    margin: 15px 30px;
+}
+
+.box .box1 .content a {
+    display: inline-block;
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 2px solid #c81623;
+}
+
+.box .box1 p {
+    margin-left: 30px;
+}
+
+.box .box2 a {
+    display: inline-block;
+    width: 142px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 30px;
+    border: 1px solid #ddd;
+}
+
+.box .box3 {
+    margin-left: 30px;
+}
+
+.box .box3 h5 {
+    font-size: 16px;
+    margin: 0 0 15px -10px;
+}
+
+.box .box3 a {
+    display: inline-block;
+    width: 96px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.box .box3 .a2 {
+    margin-left: -1px;
+}
+
+.box .box3 .a3 {
+    margin: 0 15px 0 5px;
+    border: 2px solid #c81623;
+}
+
+.box .box4 h5 {
+    font-size: 16px;
+    margin: 0 0 20px 20px;
+}
+
+.box .box5 {
+    height: 101px;
+    background-color: #f4f4f4;
+}
+
+.box .box5 h5 {
+    font-size: 16px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.box .box5 .left {
+    display: inline-block;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin: 18px 49px 0 44px;
+    border: 2px solid #c81623;
+}
+
+.box .box5 .right {
+    float: right;
+    color: #1474af;
+    margin: 20px 35px 0 0;
+}
+
+.box .box6 h5 {
+    font-size: 16px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.box .box6 {
+    height: 153px;
+    margin-top: 2px;
+    background-color: #feedef;
+}
+
+.box .box6 img {
+    float: left;
+    margin: 19px 111px 0 44px;
+}
+
+.box .box6 .info {
+    float: left;
+    width: 330px;
+}
+
+.box .box6 .info p {
+    margin-top: 20px;
+}
+
+.box .box6 .info .red {
+    display: inline-block;
+    color: #c81623;
+    margin-top: 20px;
+}
+
+.box .box6 .detail {
+    float: right;
+}
+
+.box .box6 .detail .left {
+    margin-right: 30px;
+    color: #c81623;
+    font-size: 14px;
+}
+
+.box .box6 .detail .right {
+    display: inline-block;
+    margin: 25px 30px 0 50px;
+}
+
+.box .box7 h5 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.box .box7 span {
+    display: inline-block;
+    margin: 15px 0 15px 35px;
+}
+
+.box .box7 a {
+    margin-left: 35px;
+    color: #1474af;
+}
+
+.box .box7 i {
+    font-size: 16px;
+    margin-left: 5px;
+}
+/* box end */
+
+/* account start */
+.account table {
+    float: right;
+    width: 200px;
+    text-align: right;
+    margin: 15px 25px 15px 0;
+}
+
+.account table .red {
+    color: #e60012;
+}
+
+.account .content {
+    float: left;
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+}
+
+.account .content span {
+    display: inline-block;
+    margin: 15px 30px 0 0;
+}
+
+.account .content .red {
+    font-size: 16px;
+    color: #e60012;
+}
+
+.account .content p {
+    margin-right: 30px;
+    color: #999;
+}
+
+.account button {
+    float: right;
+    width: 142px;
+    height: 46px;
+    margin: 20px 30px 30px 0;
+    color: #fff;
+    font-size: 18px;
+    background-color: #e60012;
+    border: 0;
+}
+/* account end */

@@ -1,0 +1,107 @@
+.header {
+    height: 80px;
+    line-height: 80px;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 486px;
+    background: #7e00ff url(../img/loginbg.png) no-repeat 165px 0;
+}
+
+.box .content {
+    position: absolute;
+    right: 280px;
+    top: 62px;
+    width: 379px;
+    height: 380px;
+    background-color: #fff;
+}
+
+.box .content .title {
+    margin-top: 20px;
+}
+
+.box .content h5 {
+    font-size: 18px;
+    padding: 0 53px;
+}
+
+.box .content .title span {
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    margin: 4px 11px;
+    background-color: #ededed;
+}
+
+.box .content .red {
+    color: red;
+}
+
+.box .content .main {
+    margin-left: 37px;
+}
+
+.box .content .main p {
+    width: 292px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 9px;
+    margin: 15px 0 10px 0;
+    border: 1px solid #f5eecf;
+    background-color: #fffdee;
+}
+
+.box .content .main .left-img {
+    margin-top: -4px;
+    margin-left: 0px;
+    height: 36px;
+}
+
+.box .content .main input {
+    width: 264px;
+    height: 32px;
+    margin: -1px 0 20px -1px;
+}
+
+.box .content .main .a1 img {
+    margin: -3px 6px 0 0;
+}
+
+.box .content .main .a1{
+    color: #b3b3b3;
+}
+
+.box .content .main .a2 {
+    float: right;
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+.box .content .main button {
+    width: 303px;
+    height: 41px;
+    color: #fff;
+    border: 0;
+    margin: 20px 0 25px 0;
+    font-size: 15px;
+    background-color: #c81623;
+}
+
+.box .content .main img {
+    margin-left: -15px;
+}
+
+.box .content .main .a3 {
+    float: right;
+    margin: 12px 45px 0 0;
+    color: #1474af;
+    font-size: 14px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #fff;
+}

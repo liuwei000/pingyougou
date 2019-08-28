@@ -1,0 +1,131 @@
+.header {
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid #b1191a;
+}
+.box {
+    height: 500px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.box .title {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+}
+
+.box .title h5 {
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.box .title span {
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.box .title a {
+    color: #c81623;
+}
+
+.box .content table {
+    width: 686px;
+    border-spacing: 0;
+    margin: 30px auto;
+}
+
+.box .content table td {
+    height: 36px;
+    padding-top: 15px;
+}
+
+.box .content table .no {
+    padding: 0;
+}
+
+.box .content table .input {
+    width: 239px;
+}
+
+.box .content table input {
+    height: 100%;
+    width: 239px;
+}
+
+.box .content .right {
+    text-align: right;
+}
+
+.box .content table .red {
+    color: red;
+}
+
+.box .content table .red span {
+    font-family: 'icomoon';
+    background-color: #df3033;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    color: #fff;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.box .content table .right2 {
+    float: right;
+    line-height: 36px;
+    color: #ccc;
+}
+
+.box .content table .right2 span {
+    padding: 0 10px;
+    color: #fff;
+}
+
+.box .content table .right2 .span1 {
+    background-color: #de1111;
+    margin-left: 5px;
+}
+.box .content table .right2 .span2 {
+    background-color: #40b83f;
+}
+.box .content table .right2 .span3 {
+    background-color: #f79100;
+}
+
+.box .content p {
+    height: 20px;
+    line-height: 20px;
+    margin: 42px 0 0 368px;
+}
+
+.box .content p img {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.box .content p a {
+    color: #1ba1e6;
+}
+
+.box .content button {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    border: 0;
+    color: #fff;
+    margin: 42px 0 0 380px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #fff;
+}
